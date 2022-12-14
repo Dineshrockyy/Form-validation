@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.getStart{
+    text-align: center;
+    font-size: 24px;
+    padding: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+
+.labels{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.field{
+    width: 300px;
+    height: 30px;
+    padding: 15px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    background-color: #169b16;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.err{
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    position: relative;
+    left: 40%;
+}
+.btnouter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelclass{
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    left: 40%;
+}
+#password{
+    color: black;
+}
+#eye{
+    position: absolute;
+    left: 809px;
+    font-size: 13px;
+}
+.eyecan{
+    position: absolute;
+    left: 813px;
+    font-size: 13px;
+}

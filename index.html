@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+</head>
+<body>
+    <form id="form">
+<!--form-->    
+    <div class="getStart">
+    <h2>Get Start</h2>
+    </div>
+<!--user name-->
+<div class="labelclass">
+<label for="form">
+    User Name
+</label>
+</div>
+</form name="form">
+
+    <div class="labels">
+        <input id="username" type="text" name="username" placeholder="username" class="field">
+    </div>
+    <div id="use" class="err"></div>
+    <div id="num" class="err"></div>
+<!--email-->
+<label class="labelclass" for="form">
+    Email
+</label>
+    <div class="labels">
+        <input id="email" type="email" name="email" placeholder="abc@gmail.com" class="field">
+    </div>
+    <div id="ediv" class="err"></div>
+<!--password-->
+<label class="labelclass" for="form">
+    Password
+</label>
+    <div class="labels" id="pssdiv">
+        <input id="password" name="password" type="password" placeholder="Password" class="field">
+        <i class="fa fa-eye" aria-hidden="true" id="eye" onclick="fontawe()"></i><p class="eyecan" id="eyeca">/</p></input>
+    </div>
+    <div id="pdiv" class="err"></div>
+<!--Re enter password-->
+<label class="labelclass"for="form">
+    Re Enter Password
+ </label>
+    <div class="labels">
+        <input  id="reenterpassword" name="reenterpassword" type="password" placeholder="Re Enter Password" class="field">
+        <i class="fa fa-eye" id="eye" aria-hidden="true" onclick="fontawee()"></i><p class="eyecan" id="eyecaa">/</p>
+    </div>
+    <div id='rpdiv' class="err"></div>
+    <div id='mis' class="err"></div>
+    </form>
+<!--submit btn-->
+    <div class="btnouter">
+        <button id="fun" class="btn">
+            SUBMIT
+        </button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
